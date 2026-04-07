@@ -16,7 +16,7 @@ import argparse
 # ──────────────────────────────────────────────────────────────────────────────
 
 # ⚠️ PASTE YOUR ROBOFLOW API KEY HERE ⚠️
-ROBOFLOW_API_KEY = "KigzvhM0KE8doTUTMi8x"
+ROBOFLOW_API_KEY = "YOUR_API_KEY"
 
 # Training hyperparameters
 YOLO_MODEL       = "yolov8n.pt"    # Base model to fine-tune (nano for speed)
