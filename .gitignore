@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# YOLOv8 model weights
+*.pt
+!yolov8n.pt
+
+# Training outputs
+runs/
+
+# Dataset (large files - download via train.py)
+Illegal-Parking-1/
+datasets/
+
+# Evidence screenshots (generated at runtime)
+evidence/
+
+# Output videos
+*_output.mp4
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# API keys - NEVER commit these
+# Make sure train.py has "YOUR_API_KEY" before pushing
